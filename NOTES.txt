@@ -1,0 +1,5 @@
+Git Workflow for Teams: https://www.youtube.com/watch?v=RTBVY8AER8Q&list=PLoNcMmhVBAxUE-_a49hJ4oG9xAvQEzOr2&index=17
+Overloading Operators: https://www.youtube.com/watch?v=sxmcwNFQ8FU&list=PLoNcMmhVBAxUE-_a49hJ4oG9xAvQEzOr2&index=19
+
+Money Class: Christalin Dorsey
+Account Class: Maya Price
