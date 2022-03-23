@@ -29,7 +29,7 @@ This class must store the its value in an integer that holds cents. It must incl
 * overloads of all the relational operators (<,>,<=,>=,!=,==)
 * overloads of the math operators + and -
 * an overload of the stream operator << to allow values to be printed like this:
-
+but
 [source, cpp]
 ----
 Money m(100,10);
