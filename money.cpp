@@ -51,14 +51,16 @@ bool Money::operator > (const Money &rhs)
 
 
 // Math Operators
-bool Money::operator + (const Money &rhs)
+Money Money::operator + (const Money &rhs)
 {
-    return totalCents + rhs.totalCents;
+    int newCents = totalCents + rhs.totalCents;
+    return Money(0, newCents);
 }
 
-bool Money::operator - (const Money &rhs)
+Money Money::operator - (const Money &rhs)
 {
-    return totalCents - rhs.totalCents;
+    int newCents = totalCents - rhs.totalCents;
+    return Money(0, newCents);
 }
 
 
@@ -66,6 +68,6 @@ bool Money::operator - (const Money &rhs)
 // Stream Operator
 std::ostream& operator << (std::ostream& out, const Money& money)
 {
-    out << "$" << money.totalCents * 0.01 << std::endl;
+    out << "$" << money.totalCents * 0.01;
     return out;
 }

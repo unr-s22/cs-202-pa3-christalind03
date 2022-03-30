@@ -19,8 +19,8 @@ class Money
         bool operator > (const Money &rhs);
 
         // Math Operators
-        bool operator + (const Money &rhs);
-        bool operator - (const Money &rhs);
+        Money operator + (const Money &rhs);
+        Money operator - (const Money &rhs);
 
         // Friend Operator
         friend std::ostream& operator << (std::ostream& out, const Money& money);
